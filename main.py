@@ -42,7 +42,14 @@ def femza():
     return table_with_food[datum]
 
 
-
-print(marjetica())
-print(femza())
+def main():
+    print("initiating program, please wait a second while we fetch the data")
+    print(marjetica())
+    print(femza())
+    with open("menu.txt","w") as file:
+        file.write("Today's menu options are:")
+        file.write("STARVATION")
+        
+if __name__ == "__main__":
+    main()
 
