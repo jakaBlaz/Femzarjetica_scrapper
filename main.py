@@ -47,5 +47,5 @@ def femza():
     #table_with_food = table_with_food[table_with_food.find("<table>"):table_with_food.find("</table>")]
     return 0
     
-print(femza())
+print(marjetica())
 
